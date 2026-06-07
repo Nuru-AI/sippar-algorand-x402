@@ -6,6 +6,14 @@ This is the public hackathon repository for Sippar's Algorand x402 work. It cont
 
 ---
 
+## Demo
+
+![Sippar Algorand x402 threshold-payment demo](docs/sippar-algorand-demo.gif)
+
+*Full video: [`docs/sippar-algorand-demo.mp4`](docs/sippar-algorand-demo.mp4) — Sippar threshold-signs an Algorand x402 payment to a real third-party service (Carbon & Cashmere) and returns a live result, settled on-chain.*
+
+---
+
 ## Proven on Algorand mainnet (verifiable on-chain)
 
 | What | Transaction |
