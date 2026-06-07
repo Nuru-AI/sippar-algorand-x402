@@ -1,0 +1,53 @@
+{
+  "name": "@sippar/plugin-x402-algorand",
+  "version": "1.0.0",
+  "description": "ElizaOS plugin for x402 payments on Algorand via GoPlausible facilitator",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "watch": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "prettier --check src/",
+    "format": "prettier --write src/"
+  },
+  "keywords": [
+    "elizaos",
+    "plugin",
+    "algorand",
+    "x402",
+    "payments",
+    "ai-agent"
+  ],
+  "author": "Sippar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nuru-AI/Sippar"
+  },
+  "dependencies": {
+    "algosdk": "^3.4.0"
+  },
+  "peerDependencies": {
+    "@elizaos/core": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "prettier": "^3.5.3",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2",
+    "vitest": "^3.1.3"
+  }
+}
